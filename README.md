@@ -16,20 +16,20 @@ A command-line application that generates a HTML webpage displaying a company's 
 
 ## Installation
 Clone the repository to your local machine:
-git clone https://github.com/Mykulcoding/Team-Profile-Generator
+- git clone https://github.com/Mykulcoding/Team-Profile-Generator
 
 Navigate to the project directory:
-[Team-Profile-Generator]
+- [Team-Profile-Generator]
 
 Install the required dependencies. Run the following command:
-[npm install]
+- [npm install]
 
 
 ## Usage
 To run the application, use the following command:
-[node index.js]
+- [node index.js]
 
-Follow the prompts to input information about the team members. You will be asked to provide details of team members. Input name, if they are a manager, engineer, or interns. Id number, email and tel/socials. Once you have finshed entering the as much information as you'd like, select finish and the application will generate an HTML file with all team members information. This can be accessed via the webpage. Please note that there are different questions for each category team member. 
+Follow the prompts to input information about the team members. You will be asked to provide details of team members. Input name, if they are a manager, engineer, or interns. Id number, email and tel/socials. Once you have finshed entering as much information as you'd like, select finish and the application will generate an HTML file with all team members information. This can be accessed via the webpage. Please note that there are different questions for each category team member. 
 
 ![Screenshot](./assets/)
 
@@ -50,10 +50,10 @@ Testing a Team profile generator project involves ensuring that the generated HT
 
 Install jest.
 To do this, run the following command:
-[npm install jest]
+- [npm install jest]
 
 To run tests, use the following command:
-[npm test]
+- [npm test]
 
 This will execute the unit tests for the application.
 Add jest final pass result will be displayed if all is ok. If not you can test to find out where the fault is with the information provided in the error message.
