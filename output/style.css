@@ -1,26 +1,29 @@
 /* Additional styles */
-.container-fluid {
-    background-color: red; /* Set the background color to red */
-    padding: 20px; /* Add padding for better visual appearance */
+div.container-fluid {
+    background-color: white;
+    color: white; 
 }
 
-.card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
-    margin: 10px; /* Adjust margin for spacing between cards */
+/* Set text color of the team heading to blue */
+.team-heading h1 {
+    color: white;
+}
+/* Add spacing between card elements */
+.card.employee-card {
+    margin-right: 20px; /* Adjust the value according to your preference */
+    margin-top: 50px;
+    border: 2px solid darkred; /* Set border color to darkred */
 }
 
-.card-title {
-    color: blue; /* Set the card title color to blue */
+.card-header { background-color: rgb(113, 113, 216);
+    color: white;
+
 }
 
-.team-heading {
-    margin-bottom: 20px; /* Add margin to the team heading for better spacing */
-}
-
-/* Responsive styling for three cards per row */
+/* Responsive styling */
 @media (min-width: 576px) {
     .team-area .card {
-        flex: 0 0 31%; /* Adjust flex properties for three cards per row */
+        flex: 0 0 28%; /* Adjust accordingly*/
     }
 }
 
