@@ -16,7 +16,7 @@ A command-line application that generates a HTML webpage displaying a company's 
 
 ## Installation
 Clone the repository to your local machine:
-- git clone https://github.com/Mykulcoding/Team-Profile-Generator
+- git clone: https://github.com/Mykulcoding/Team-Profile-Generator
 
 Navigate to the project directory:
 - [Team-Profile-Generator]
@@ -31,7 +31,7 @@ To run the application, use the following command:
 
 Follow the prompts to input information about the team members. You will be asked to provide details of team members. Input name, if they are a manager, engineer, or interns. Id number, email and tel/socials. Once you have finshed entering as much information as you'd like, select finish and the application will generate an HTML file with all team members information. This can be accessed via the webpage. Please note that there are different questions for each category team member. 
 
-![Screenshot](./assets/)
+![Screenshot](./assets/TPG_test_image.PNG)
 
 
 ## License
@@ -60,11 +60,11 @@ Add jest final pass result will be displayed if all is ok. If not you can test t
 
 Image of project test below
 
-![Screenshot](./assets/)
+![Screenshot](./assets/TPG_cli_prompt_image.PNG)
 
 ## Questions
 
 If you have any questions or need further assistance, please reach out:
 
-- GitHub: https://github.com/Mykulcoding/Mykul-README-generator
-- Email: mom_adjei@yahoo.com
+- [Github](https://github.com/Mykulcoding/Mykul-README-generator)
+- [Email] (mom_adjei@yahoo.com)
