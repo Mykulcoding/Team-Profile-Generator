@@ -155,10 +155,13 @@ const promptIntern = async () => {
   await promptNextMember();
 };
 
-// Initial function to start the process
-const askQuestion = async () => {
-  await promptManager();
-};
+// Start the process by prompting for the first team member
+promptNextMember();
 
-// Start the process
-askQuestion();
+// // Initial function to start the process
+// const askQuestion = async () => {
+//   await promptManager();
+// };
+
+// // Start the process
+// askQuestion();
