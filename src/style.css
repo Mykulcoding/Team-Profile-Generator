@@ -1,0 +1,31 @@
+/* Additional styles */
+.container-fluid {
+    background-color: red; /* Set the background color to red */
+    padding: 20px; /* Add padding for better visual appearance */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin: 10px; /* Adjust margin for spacing between cards */
+}
+
+.card-title {
+    color: blue; /* Set the card title color to blue */
+}
+
+.team-heading {
+    margin-bottom: 20px; /* Add margin to the team heading for better spacing */
+}
+
+/* Responsive styling for three cards per row */
+@media (min-width: 576px) {
+    .team-area .card {
+        flex: 0 0 31%; /* Adjust flex properties for three cards per row */
+    }
+}
+
+@media (max-width: 576px) {
+    .team-area .card {
+        flex: 0 0 100%; /* Full width for smaller screens */
+    }
+}
