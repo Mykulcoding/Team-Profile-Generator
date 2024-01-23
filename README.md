@@ -31,7 +31,7 @@ To run the application, use the following command:
 
 Follow the prompts to input information about the team members. You will be asked to provide details of team members. Input name, if they are a manager, engineer, or interns. Id number, email and tel/socials. Once you have finshed entering as much information as you'd like, select finish and the application will generate an HTML file with all team members information. This can be accessed via the webpage. Please note that there are different questions for each category team member. 
 
-![Screenshot](./assets/TPG_test_image.PNG)
+![Screenshot](./assets/TPG_cli_prompt_image.PNG)
 
 
 ## License
@@ -60,7 +60,7 @@ Add jest final pass result will be displayed if all is ok. If not you can test t
 
 Image of project test below
 
-![Screenshot](./assets/TPG_cli_prompt_image.PNG)
+![Screenshot](./assets/TPG_test_image.PNG)
 
 ## Questions
 
